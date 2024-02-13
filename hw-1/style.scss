@@ -55,8 +55,12 @@ body {
     &__button {
         font-family: Montserrat;
         font-style: normal;
-        font-weight: 400;       
+        font-weight: 400;
         font-size: 18px;
+
+        &:hover {
+            background: #EB443F;
+        }
 
         &__form {
             width: 234px;
@@ -90,6 +94,10 @@ body {
         width: 379px;
         height: 300px;
         border-radius: 16px;
+
+        &:hover {
+            border: 3px solid #44D2FF;
+        }
     }
 
     &__name {
@@ -103,4 +111,13 @@ body {
         left: 32px;
         bottom: 32px;
     }
+}
+
+.menu-izb {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    position: absolute;
+    bottom: 14px;
+    right: 15px;
 }

@@ -50,6 +50,9 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
+.top__button:hover {
+  background: #EB443F;
+}
 .top__button__form {
   width: 234px;
   height: 48px;
@@ -79,6 +82,9 @@ body {
   height: 300px;
   border-radius: 16px;
 }
+.product__img:hover {
+  border: 3px solid #44D2FF;
+}
 .product__name {
   line-height: 32px;
   letter-spacing: 0px;
@@ -89,4 +95,13 @@ body {
   position: absolute;
   left: 32px;
   bottom: 32px;
+}
+
+.menu-izb {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  position: absolute;
+  bottom: 14px;
+  right: 15px;
 }/*# sourceMappingURL=style.css.map */
