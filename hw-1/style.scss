@@ -20,6 +20,10 @@ body {
         'Montserrat', sans-serif;
 }
 
+button {
+    cursor: pointer;
+}
+
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
