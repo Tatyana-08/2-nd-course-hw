@@ -99,13 +99,4 @@ button {
   position: absolute;
   left: 32px;
   bottom: 32px;
-}
-
-.menu-izb {
-  display: flex;
-  align-items: center;
-  gap: 21px;
-  position: absolute;
-  bottom: 14px;
-  right: 15px;
 }/*# sourceMappingURL=style.css.map */
