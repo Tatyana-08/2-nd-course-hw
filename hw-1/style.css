@@ -15,6 +15,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
@@ -50,6 +54,9 @@ body {
   font-weight: 400;
   font-size: 18px;
 }
+.top__button:hover {
+  background: #EB443F;
+}
 .top__button__form {
   width: 234px;
   height: 48px;
@@ -78,6 +85,9 @@ body {
   width: 379px;
   height: 300px;
   border-radius: 16px;
+}
+.product__img:hover {
+  border: 3px solid #44D2FF;
 }
 .product__name {
   line-height: 32px;
