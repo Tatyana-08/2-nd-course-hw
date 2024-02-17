@@ -20,8 +20,8 @@ alert(x*y);
 alert(x/y);
 
 // Задание 5
-let result;
-alert(result=y**5);
+let result = y ** 5;
+alert(result);
 
 // Задание 6
 a=9;
