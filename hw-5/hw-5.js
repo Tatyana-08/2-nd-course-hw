@@ -101,3 +101,23 @@ const circle2 = {
  console.log(circle1.getPerimeter());
  console.log(circle2.getArea());
  console.log(circle2.getPerimeter());
+
+ // Задание 8
+let monthNumber = Number(prompt("Введите номер месяца"));
+
+if (isNaN(monthNumber)) {
+   console.log('неверный формат ввода')
+} else { 
+
+   if (monthNumber == 12 || monthNumber == 1 || monthNumber == 2) {
+         console.log('зима');
+      } else if (monthNumber >= 3 && monthNumber <= 5) {
+         console.log('весна');
+      } else if (monthNumber >= 6 && monthNumber <= 8) {
+         console.log('лето');
+      } else if (monthNumber >= 9 && monthNumber <= 11) {   
+         console.log('осень');
+      } else {
+         console.log('такого месяца не существует');
+   };
+};
