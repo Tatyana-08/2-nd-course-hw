@@ -40,4 +40,4 @@ let firstFriday = 5;
 
 for (firstFriday = 2; firstFriday < 31; firstFriday += 7) {
    console.log(`Сегодня пятница, ${firstFriday}-е число. Необходимо подготовить отчет.`);
-};
+}
